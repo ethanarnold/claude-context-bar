@@ -6,6 +6,13 @@ A live, multi-session context-window meter for [Claude Code](https://docs.claude
 
 ## What it does
 
+I built `contextbar` because I was getting sick of running `/context` over and over 
+to keep tabs on my agents. 
+
+This started as a little afternoon for-fun project that I wasn't going to put on GitHub, 
+but it's actually really useful to watch your agents' context grow in real time. So I 
+decided to throw it up on GitHub for shiggles.
+
 `contextbar` watches every session file under `~/.claude/projects/` and shows a
 live TUI dashboard with one row per active Claude Code session: project name,
 colored usage bar, percentage, token counts, and time since the session was
