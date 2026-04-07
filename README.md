@@ -2,6 +2,8 @@
 
 A live, multi-session context-window meter for [Claude Code](https://docs.claude.com/en/docs/claude-code).
 
+![screenshot](screenshot.png)
+
 ## What it does
 
 `contextbar` watches every session file under `~/.claude/projects/` and shows a
