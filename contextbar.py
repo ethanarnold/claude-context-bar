@@ -27,7 +27,7 @@ import time
 from pathlib import Path
 from typing import Optional
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 PROJECTS_DIR = Path.home() / ".claude" / "projects"
 DEFAULT_CONTEXT_LIMIT = 200_000  # default Claude context window

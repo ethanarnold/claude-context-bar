@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.1] — 2026-04-07
+
+### Fixed
+- Screenshot and `LICENSE` link now render correctly on the PyPI project
+  page. Both were relative paths that PyPI's README renderer does not
+  resolve; they now use absolute `raw.githubusercontent.com` /
+  `github.com` URLs. No code changes.
+
 ## [0.1.0] — 2026-04-07
 
 Initial public release.
@@ -30,4 +38,5 @@ Initial public release.
 - `pyproject.toml` packaging metadata with a `contextbar` console script
   and an optional `[windows]` extra.
 
+[0.1.1]: https://github.com/ethanarnold/claude-context-bar/releases/tag/v0.1.1
 [0.1.0]: https://github.com/ethanarnold/claude-context-bar/releases/tag/v0.1.0

@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "claude-context-bar"
-version = "0.1.0"
+version = "0.1.1"
 description = "Live multi-session context-window meter for Claude Code."
 readme = "README.md"
 requires-python = ">=3.9"

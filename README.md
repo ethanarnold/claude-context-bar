@@ -2,11 +2,11 @@
 
 [![PyPI version](https://img.shields.io/pypi/v/claude-context-bar.svg)](https://pypi.org/project/claude-context-bar/)
 [![Python versions](https://img.shields.io/pypi/pyversions/claude-context-bar.svg)](https://pypi.org/project/claude-context-bar/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/ethanarnold/claude-context-bar/blob/main/LICENSE)
 
 A live, multi-session context-window meter for [Claude Code](https://docs.claude.com/en/docs/claude-code).
 
-![screenshot](screenshot.png)
+![screenshot](https://raw.githubusercontent.com/ethanarnold/claude-context-bar/main/screenshot.png)
 
 ## What it does
 
@@ -138,7 +138,7 @@ Single-file project. No build step, no dependencies.
 
 ## License
 
-[MIT](LICENSE) © 2026 Ethan
+[MIT](https://github.com/ethanarnold/claude-context-bar/blob/main/LICENSE) © 2026 Ethan
 
 ## Disclaimer
 
