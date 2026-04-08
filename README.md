@@ -1,5 +1,9 @@
 # claude-context-bar
 
+[![PyPI version](https://img.shields.io/pypi/v/claude-context-bar.svg)](https://pypi.org/project/claude-context-bar/)
+[![Python versions](https://img.shields.io/pypi/pyversions/claude-context-bar.svg)](https://pypi.org/project/claude-context-bar/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 A live, multi-session context-window meter for [Claude Code](https://docs.claude.com/en/docs/claude-code).
 
 ![screenshot](screenshot.png)
@@ -21,16 +25,23 @@ standard library, and ships as a single file.
 
 ## Install
 
-**From GitHub (recommended):**
-
 ```bash
-pip install git+https://github.com/ethanarnold/claude-context-bar.git
+pip install claude-context-bar
+contextbar
 ```
+
+That's it.
 
 **Native Windows (adds `windows-curses`):**
 
 ```bash
-pip install "git+https://github.com/ethanarnold/claude-context-bar.git#egg=claude-context-bar[windows]"
+pip install "claude-context-bar[windows]"
+```
+
+**From source / GitHub:**
+
+```bash
+pip install git+https://github.com/ethanarnold/claude-context-bar.git
 ```
 
 **No-install one-liner:**
